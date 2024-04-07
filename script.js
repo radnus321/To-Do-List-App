@@ -4,7 +4,7 @@ const MAX_TASKS = 15;
 let taskCount = 0;
 function addTask(){
   if(taskCount >= MAX_TASKS){
-    alert("You've reached the maximum limit of tasks");
+    alert("You've reached the maximum limit of tasks, complete them idiot");
     localStorage.removeItem("data");
   }
   else if(inputBox.value === ''){
